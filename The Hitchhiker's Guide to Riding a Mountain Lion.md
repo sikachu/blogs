@@ -1,11 +1,11 @@
 ![](http://media.tumblr.com/tumblr_m7p8rzVYgu1qcfyao.jpg)
 
 Earlier today, [OS X Mountain Lion][OS X Mountain Lion] was released for all
-users in the Mac App Store. As a member of the [Mac Developer Program][Mac
-Developer Program], I decided to tame this wild cat early on, jumping on the
-beta tester bandwagon since the Developer Preview 4. Here are some of the
-things you should consider as you make the switch to this shiny new operating
-system.
+users in the Mac App Store. As a member of the
+[Mac Developer Program][Mac Developer Program], I decided to tame this wild cat
+early on, jumping on the beta tester bandwagon since the Developer Preview 4.
+Here are some of the things you should consider as you make the switch to this
+shiny new operating system.
 
 The Upgrade Process
 -------------------------
