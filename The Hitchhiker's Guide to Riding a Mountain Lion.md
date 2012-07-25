@@ -62,29 +62,23 @@ Word to the Wise: Backup Your System
 -----------------------------------------------
 Before performing any major upgrade, always make sure that you have the latest
 backup of your Mac. If you already have [Time Machine][Time Machine] set up,
-all you need to do is click its icon on the menu bar, then choose "Back Up Now"
-to start backing up your system. Once done, make sure your backup is working by
-holding the Option (⌥) key while the Time Machine menubar drop down is visible,
-then clicking the new "Verify Backups" menu item. Ensure you don't have any
-error messages at the end of the verification process.
+all you need to do is [intiate another manual backup][manual backup]. It's also
+a good idea to [verify your backup][verify backup] afterward to make sure that
+it's working.
 
 If you have been leading a carefree life and did not bother setting up Time
-Machine, I would suggest using [Carbon Copy Cloner][CCC]—a third party
-application—to clone your internal hard drive to an external one. CCC will not
-only make the backup bootable, but will also take care of cloning the hidden
-recovery partition in your boot drive, may you choose this option in the
-settings. When all's said and done, I would still recommend setting up Time
-Machine once you upgrade to Mountain Lion.
-
-If you have a spare external hard drive, consider keeping a bootable
-installation of Lion—even after the upgrade—in case something goes wrong. It
-took me only half an hour to clone a 500GB drive to an external USB drive.
+Machine, or would like to make sure that you can come back to Lion if something
+is broken, I would suggest using [Carbon Copy Cloner][CCC] to clone your internal
+hard drive to an external one. (Once the upgrade is done, I would still
+recommend you to set up Time Machine in the OS.)
 
 ROAR!!!
 ---------
 Finally, your developer machine has been upgraded to OS X Mountain Lion. I hope
 you'll enjoy the [new features][features] as much I do. Happy coding!
 
+[maunal backup]: http://osxdaily.com/2010/07/21/how-to-do-manual-backups-with-time-machine
+[verify backup]: http://www.maclife.com/article/howtos/how_test_your_time_machine_backups
 [OS X Mountain Lion]: http://www.apple.com/osx
 [Mac Developer Program]: https://developer.apple.com/programs/mac
 [Golden Master]: http://en.wikipedia.org/wiki/Golden_master
