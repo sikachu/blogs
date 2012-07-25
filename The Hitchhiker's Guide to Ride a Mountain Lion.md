@@ -5,59 +5,21 @@ all users in the Mac App Store. My guess is that a lot of you have been eagerly
 anticipating this release, and are probably very excited that it's finally out.
 As a member of the [Mac Developer Program][Mac Developer Program], I have
 decided to tame this wild cat early on, jumping on the bandwagon of beta
-testers since the 4th Developer Preview, all the way to the [Golden
+testers since the Developer Preview 4, all the way to the [Golden
 Master][Golden Master] release. Here are some of the things you should consider
 as you make the switch to this shiny new operating system.
-
-Word of the Wise: Backup Your System
------------------------------------------------
-Before performing any major upgrade, always make sure that you have the latest
-backup of your Mac. If you already have [Time Machine][Time Machine] set up,
-all you need to do is click its icon on the menu bar, then choose "Back Up Now"
-to start backing up your system. Once done, make sure your backup is working by
-holding the Option (⌥) key while the Time Machine menubar drop down is visible,
-then clicking the new "Verify Backups" menu item. Make sure you don't get any
-error messages at the end of the verification process.
-
-If you have been leading a carefree life and did not bother setting up Time
-Machine, I would suggest using [Carbon Copy Cloner][CCC]—a third party
-application— to clone your internal hard drive to an external one. CCC will not
-only make the backup bootable, but will also take care of cloning the hidden
-recovery partition in your boot drive, may you choose this option in the
-settings. When all's said and done, I would still recommend setting up Time
-Machine once you upgrade to Mountain Lion.
-
-If you have a spare external hard drive, consider keeping a bootable
-installation of Lion—even after the upgrade—in case something goes wrong. It
-took me only half an hour to clone a 500GB drive to an external USB drive.
-
-Application Compatibility
------------------------------
-As with previous milestone releases of Mac OS X, Mountain Lion leaves some
-technologies and applications that rely on them behind. Checking the
-compatibility of your frequently used apps on [RoaringApps][RoaringApps] is a
-good idea. If your most used applications are not yet optimized for Mountain
-Lion, you might want to wait for a compatibility update before upgrading your
-system. Keep in mind that [PowerPC][PowerPC] applications will no longer work
-on Mountain Lion as Apple has completely dropped [Rosetta][Rosetta] in this
-update. Similarly, applications that rely on [X11][X11], such as
-[Divvy][Divvy], will no longer run on Mountain Lion out of the box. All hope is
-not lost though as you can still install X11 from external sources. Read the
-post-upgrade section for more details.
 
 The Upgrade Process
 -------------------------
 Once I downloaded the 4GB installer from the Mac App Store, the whole upgrade
 process took me about 45 minutes on my 15" 2010 Macbook Pro with an SSD drive.
 It was a simple and straightforward process as the installer takes care of
-everything. 
+everything.
 
-Post-Upgrade Cleanup
----------------------------
-Congratulations! Now you've completed the layman upgrade process. For us
-developers, we need to do some additional work to get up to speed once again
-and be able to compile [Ruby][Ruby] (using [RVM][RVM] or [rbenv][rbenv]) or
-install packages using [Homebrew][Homebrew]. Hold on to your champagne for now.
+Once the installer is done, we need to do some additional work to get up to
+speed once again and be able to compile [Ruby][Ruby] (using [RVM][RVM] or
+[rbenv][rbenv]) or install packages using [Homebrew][Homebrew]. Hold on to your
+champagne for now.
 
 ### Getting Xcode + Command Line Tools Installed
 
@@ -93,24 +55,37 @@ Voila! Now you can compile any library that requires non-LLVM GCC.
 ### Reinstall X11
 
 Now, if you're still using some application that depend on X11, such as
-[Wine][Wine] or [gitk][gitk], you'll need to install X11 as well. Apple has
+[Divvy][Divvy] or [gitk][gitk], you'll need to install X11 as well. Apple has
 [already removed X11 support][apple remove x11] from their operating system,
 but you can still get the X11 package from [XQuartz][XQuartz]. I've been using
 their 2.7.2 release, and it's working fine for me.
-
-### Growl
-
-If you're using Growl and have set the notification location to the top right
-corner of the screen, you'll soon notice that your Growl notifications overlap
-with those of the Notification Center. The only workaround I could think of for
-now is to move Growl notifications to a different corner in the screen. Low and
-behold, Growl developers are [working][growl notification center] on an
-Notification Center integration that would make things much easier.
 
 ROAR!!!
 ---------
 Finally, your developer machine has been upgraded to OS X Mountain Lion. I hope
 you'll enjoy the [new features][features] as much I do. Happy coding!
+
+Word of the Wise: Backup Your System
+-----------------------------------------------
+Before performing any major upgrade, always make sure that you have the latest
+backup of your Mac. If you already have [Time Machine][Time Machine] set up,
+all you need to do is click its icon on the menu bar, then choose "Back Up Now"
+to start backing up your system. Once done, make sure your backup is working by
+holding the Option (⌥) key while the Time Machine menubar drop down is visible,
+then clicking the new "Verify Backups" menu item. Make sure you don't get any
+error messages at the end of the verification process.
+
+If you have been leading a carefree life and did not bother setting up Time
+Machine, I would suggest using [Carbon Copy Cloner][CCC]—a third party
+application— to clone your internal hard drive to an external one. CCC will not
+only make the backup bootable, but will also take care of cloning the hidden
+recovery partition in your boot drive, may you choose this option in the
+settings. When all's said and done, I would still recommend setting up Time
+Machine once you upgrade to Mountain Lion.
+
+If you have a spare external hard drive, consider keeping a bootable
+installation of Lion—even after the upgrade—in case something goes wrong. It
+took me only half an hour to clone a 500GB drive to an external USB drive.
 
 [OS X Mountain Lion]: http://www.apple.com/osx
 [Mac Developer Program]: https://developer.apple.com/programs/mac
