@@ -70,7 +70,7 @@ error messages at the end of the verification process.
 
 If you have been leading a carefree life and did not bother setting up Time
 Machine, I would suggest using [Carbon Copy Cloner][CCC]—a third party
-application— to clone your internal hard drive to an external one. CCC will not
+application—to clone your internal hard drive to an external one. CCC will not
 only make the backup bootable, but will also take care of cloning the hidden
 recovery partition in your boot drive, may you choose this option in the
 settings. When all's said and done, I would still recommend setting up Time
