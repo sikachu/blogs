@@ -1,13 +1,13 @@
 ![](http://media.tumblr.com/tumblr_m7p8rzVYgu1qcfyao.jpg)
 
-Earlier today, [OS X Mountain Lion][OS X Mountain Lion] has been released for
-all users in the Mac App Store. My guess is that a lot of you have been eagerly
+Earlier today, [OS X Mountain Lion][OS X Mountain Lion] was released for all
+users in the Mac App Store. My guess is that a lot of you have been eagerly
 anticipating this release, and are probably very excited that it's finally out.
-As a member of the [Mac Developer Program][Mac Developer Program], I have
-decided to tame this wild cat early on, jumping on the bandwagon of beta
-testers since the Developer Preview 4, all the way to the [Golden
-Master][Golden Master] release. Here are some of the things you should consider
-as you make the switch to this shiny new operating system.
+As a member of the [Mac Developer Program][Mac Developer Program], I decided to
+tame this wild cat early on, jumping on the beta tester bandwagon since the
+Developer Preview 4, all the way to the [Golden Master][Golden Master] release.
+Here are some of the things you should consider as you make the switch to this
+shiny new operating system.
 
 The Upgrade Process
 -------------------------
@@ -42,10 +42,10 @@ Next, you need to update Homebrew:
 
 If you need to install any Ruby that's older than 1.9.3, such as 1.9.2, 1.8.7
 or REE, you'll need to install GCC 4.2. Apple does not ship the Command Line
-Tools with `gcc-4.2` compiler anymore (you can try by running `which gcc-4.2`),
-so you need to install it via Homebrew. By default, Homebrew doesn't include
-any formula that ships with the OS in the main repository, so you'll have to
-enable [homebrew-dupes][homebrew-dupes] repository by using `brew tap`
+Tools with `gcc-4.2` compiler anymore (you can check by running `which
+gcc-4.2`), so you need to install it via Homebrew. By default, Homebrew doesn't
+include any formula that ships with the OS in the main repository, so you'll
+have to enable [homebrew-dupes][homebrew-dupes] repository by using `brew tap`
 
     brew tap homebrew/dupes
     brew install apple-gcc42
@@ -65,14 +65,14 @@ ROAR!!!
 Finally, your developer machine has been upgraded to OS X Mountain Lion. I hope
 you'll enjoy the [new features][features] as much I do. Happy coding!
 
-Word of the Wise: Backup Your System
+Word to the Wise: Backup Your System
 -----------------------------------------------
 Before performing any major upgrade, always make sure that you have the latest
 backup of your Mac. If you already have [Time Machine][Time Machine] set up,
 all you need to do is click its icon on the menu bar, then choose "Back Up Now"
 to start backing up your system. Once done, make sure your backup is working by
 holding the Option (⌥) key while the Time Machine menubar drop down is visible,
-then clicking the new "Verify Backups" menu item. Make sure you don't get any
+then clicking the new "Verify Backups" menu item. Ensure you don't have any
 error messages at the end of the verification process.
 
 If you have been leading a carefree life and did not bother setting up Time
