@@ -1,17 +1,15 @@
 ![](http://media.tumblr.com/tumblr_m7p8rzVYgu1qcfyao.jpg)
 
 Earlier today, [OS X Mountain Lion][OS X Mountain Lion] was released for all
-users in the Mac App Store. My guess is that a lot of you have been eagerly
-anticipating this release, and are probably very excited that it's finally out.
-As a member of the [Mac Developer Program][Mac Developer Program], I decided to
-tame this wild cat early on, jumping on the beta tester bandwagon since the
-Developer Preview 4, all the way to the [Golden Master][Golden Master] release.
-Here are some of the things you should consider as you make the switch to this
-shiny new operating system.
+users in the Mac App Store. As a member of the [Mac Developer Program][Mac
+Developer Program], I decided to tame this wild cat early on, jumping on the
+beta tester bandwagon since the Developer Preview 4. Here are some of the
+things you should consider as you make the switch to this shiny new operating
+system.
 
 The Upgrade Process
 -------------------------
-Once I downloaded the 4GB installer from the Mac App Store, the whole upgrade
+After I downloaded the 4GB installer from the Mac App Store, the whole upgrade
 process took me about 45 minutes on my 15" 2010 Macbook Pro with an SSD drive.
 It was a simple and straightforward process as the installer takes care of
 everything.
