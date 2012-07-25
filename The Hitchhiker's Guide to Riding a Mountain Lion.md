@@ -58,11 +58,6 @@ Now, if you're still using some application that depend on X11, such as
 but you can still get the X11 package from [XQuartz][XQuartz]. I've been using
 their 2.7.2 release, and it's working fine for me.
 
-ROAR!!!
----------
-Finally, your developer machine has been upgraded to OS X Mountain Lion. I hope
-you'll enjoy the [new features][features] as much I do. Happy coding!
-
 Word to the Wise: Backup Your System
 -----------------------------------------------
 Before performing any major upgrade, always make sure that you have the latest
@@ -84,6 +79,11 @@ Machine once you upgrade to Mountain Lion.
 If you have a spare external hard drive, consider keeping a bootable
 installation of Lion—even after the upgrade—in case something goes wrong. It
 took me only half an hour to clone a 500GB drive to an external USB drive.
+
+ROAR!!!
+---------
+Finally, your developer machine has been upgraded to OS X Mountain Lion. I hope
+you'll enjoy the [new features][features] as much I do. Happy coding!
 
 [OS X Mountain Lion]: http://www.apple.com/osx
 [Mac Developer Program]: https://developer.apple.com/programs/mac
