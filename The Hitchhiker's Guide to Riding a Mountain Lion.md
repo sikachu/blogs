@@ -78,7 +78,7 @@ Finally, your developer machine has been upgraded to OS X Mountain Lion. I hope
 you'll enjoy the [new features][features] as much I do. Happy coding!
 
 [maunal backup]: http://osxdaily.com/2010/07/21/how-to-do-manual-backups-with-time-machine
-[verify backup]: http://www.maclife.com/article/howtos/how_test_your_time_machine_backups
+[verify backup]: http://macs.about.com/od/backupsarchives/qt/Verify-Time-Machine-Backups.htm
 [OS X Mountain Lion]: http://www.apple.com/osx
 [Mac Developer Program]: https://developer.apple.com/programs/mac
 [Golden Master]: http://en.wikipedia.org/wiki/Golden_master
