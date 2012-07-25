@@ -70,7 +70,7 @@ If you have been leading a carefree life and did not bother setting up Time
 Machine, or would like to make sure that you can come back to Lion if something
 is broken, I would suggest using [Carbon Copy Cloner][CCC] to clone your internal
 hard drive to an external one. (Once the upgrade is done, I would still
-recommend you to set up Time Machine in the OS.)
+recommend you set up Time Machine.)
 
 ROAR!!!
 ---------
