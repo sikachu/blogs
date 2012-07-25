@@ -44,7 +44,7 @@ If you need to install any Ruby that's older than 1.9.3, such as 1.9.2, 1.8.7
 or REE, you'll need to install GCC 4.2. Apple does not ship the Command Line
 Tools with `gcc-4.2` compiler anymore (you can try by running `which gcc-4.2`),
 so you need to install it via Homebrew. By default, Homebrew doesn't include
-any formular that ships with the OS in the main repository, so you'll have to
+any formula that ships with the OS in the main repository, so you'll have to
 enable [homebrew-dupes][homebrew-dupes] repository by using `brew tap`
 
     brew tap homebrew/dupes
